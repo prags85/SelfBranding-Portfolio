@@ -5,18 +5,27 @@ import { FiExternalLink } from "react-icons/fi";
 export default function Projects() {
   const projects = [
     {
+      title: "HeartGuard: GDSC Solution Challenge 2023",
+      description:
+        "AI-powered heart disease prediction web app using 9+ ML algorithms including Logistic Regression, Random Forest, AdaBoost, and Deep Neural Network. Features data visualizations, EDA, and model evaluations.",
+      link: "https://heartdf-mswvgpvyqc44ff3fe9rta7.streamlit.app/"
+    },
+    {
       title: "Interview AI – AI-Powered Interview Coach",
-      description: "AI interview platform using Google Gemini Pro with React, Node.js, Express, and MongoDB.",
+      description:
+        "AI interview platform using Google Gemini Pro with React, Node.js, Express, and MongoDB.",
       link: "https://bejewelled-bonbon-8370ae.netlify.app"
     },
     {
       title: "Kidney Disease Classification",
-      description: "TensorFlow model to classify kidney CT scans; Streamlit UI for predictions.",
+      description:
+        "TensorFlow model to classify kidney CT scans; Streamlit UI for predictions.",
       link: "https://kidneydiseaseclassification-ytsmperjhk24axfaxlxfu9.streamlit.app/"
     },
     {
       title: "Movie Recommender System",
-      description: "ML-based content recommender using cosine similarity with Streamlit frontend and TMDB API.",
+      description:
+        "ML-based content recommender using cosine similarity with Streamlit frontend and TMDB API.",
       link: "https://recommender-movie-system.streamlit.app/"
     }
   ];
